@@ -1,0 +1,36 @@
+BASIC TAGS -----------------------------------------
+
+<html> Crear HTMl
+
+<tittle> - Nombre pagina
+<head> - encabezado
+
+<body> - CUerpo pagina
+<h 1,2,3,4,5,6> - Headers
+<p> - Paragraph
+<b> - Bold tag, negritas en paragraph
+<i> - Italic, lo inclinated
+
+LINEAS y break
+<br/> - Break, Espacio entre cosos
+<hr/> - Horizontal rule tag, Una linea horizontal
+
+<big> - big tag
+<small> - small tag ,para las letras
+<sub> - Subindice
+<sup> Superindice
+
+COMMENTS ---------------------------------------------
+
+<!-- //LO QUE QUIERAS ESCRIBIR -->
+
+STYLE & COLORS ---------------------------------------
+
+<p style="color: blue;"> Poner color
+<p style="background-color: blue;"> - Background
+
+OTROS COSOS -----------------------------------------
+
+<header>  - Estos 3 cosos son
+<main>	  - para separar las 
+<footer>  - partes de la pagina

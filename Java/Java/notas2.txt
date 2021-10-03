@@ -1,0 +1,115 @@
+Cast
+
+Las conversiones de un tipo primitivo son automaticas en Java
+
+convertir a unt tipo de menor precision requiere hacerse de modo explicito, pues indica perdida de informacion
+Se utiliza el operador cast   //Sin cast    char x = 'X';   int a = x*2;    // cont Cast    
+Para convetir entre objetos, tienen que estar relacionados or herencia
+Conversion de subclase a super clase se hace de manera automatica
+De superclase a subclase debe usar el operador cast
+Si una clase padre no contiene suficiente informacion de la clase hija, se obtendra el la excepcion ClasssCastException al tratar de convertir
+
+Ejemplo 
+Circle a;
+Cylinder b = new Cylinder();
+a = b;       // JALA
+Cylinder a;
+Circle b = new Circle();
+a = (Cylinder) b;  // EXCEPTION
+
+Polimorfismo
+
+Del griego "muchas formas"
+Varios metodos con el mismo nombre en la misma clase
+
+Sobrecarga (overloading) = Dos o mas metodos con distintos argumento
+Anulacion (override) = reemplazar un metodo de la misma firma por otro
+
+Se asegura que para un objeto especifico, se llame el metodo correcto cuando dicho objeto se hace pasar por otro mas general
+Se determina en tiempo de ejecucion, no de compilacion
+Esto ahorra estructuras de tipo if-else o switch
+
+Se permite tratar un objeto de la clase hija como la clase padre
+Una referencia a una superclase puede apuntar a un objeto
+Requiere uitlizar referencias de un tipo mas amplio que el objeto al que apuntan
+
+(coso instaceof tipo_de_clase)
+
+Archivos JAR
+ 
+jar cfe nombre.jar CLASEPRINCIPAL SIN EXTENSION nombre     LOS QUE VOY A INCLUIR CON EXTENSIONES nombre.java nombre.class
+para ejecutar
+java -jar nombre.jar
+
+JAVA SWING
+
+SWING es un paquete de java que contiene las clases necesarias para crear interfaces graficas
+Salvo que se especifique lo contrario, dichas interfaces tendran la misma apariencia (LOOK&FEEL)
+
+JFrame = Cuadro grande, JButton = Botones, Jlabel = Etiquetas, JTextField =
+
+FlowLayout: Coloca todos los componentes en unasola linea. 	Comienza una nueva si el panel no es suficientemente ancho
+FlowLayout() , FLowLayut(int align // alineacion de los botones LEFT RIGHT CENTER LEADING TRAILING) , FlowLayout(int align , int hgad// Distancias entre piceles horizontal-verticali, itn vgap) 
+
+Border Layout: Coloca los componentes en 5 areas
+NORTH, EAST, SOUTH, CENTER, WEST
+
+GridLayout Los acomoda en una matriz
+GirdLayout() , GridLayout(int rows, int cols), GridLayout(int rows, int cols, int hgap, int vgap)
+
+BoxLayout coloca los componentes en una sola columna o linea. Requiere el contenedor en el constructor
+BoxLayout(Container target, int axis)   X_AXIS, Y_AXIS
+
+JPanel: Funciona como contenedor intermedio (Similar a JFrame) y permite mayor flexibilidad en el posicionamiento de componentes dentro de la interfaz grafica
+JPanel(LayoutManager layout), JPanel()
+
+Card Layout     --
+Grid Bag Layout --
+
+
+
+JFrame
+JButton
+JPanel
+JLabel
+
+ImageIcon
+JTextField
+
+JRadioButton
+JCheckBox
+ButtonGroup
+
+ActionListener
+.addActionListener(new ActionListener(){
+	@Override
+	public void actionPerformed(ActionEvent e){ // CODE }});
+
+JComboBox
+
+JList< >
+JTextArea
+JScrollBar
+
+
+Genericidad -------
+Clases o metodos de tipo indeterminado
+Ayudan a encontrar errores en tiempo de compilacion
+Reduce el uso de operaciones cast
+Permite la creacion de algoritmos reutilizables para distintos tipos
+
+
+import java.io.*;
+IOFileException
+
+File
+
+FileWritter
+write(String text);
+write(String text ,boolean append); // Texto, ysi lo va a borrar todo o lo va a appendear
+USAR SIEMPRE F.close();
+
+FileWritter
+	read(); // solo un char
+	read(char[] cbuf, int offset, int length); // donde os guarda, a partir de donde escribe, y cuantos
+	usar siempre f.close();

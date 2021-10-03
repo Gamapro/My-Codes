@@ -1,0 +1,41 @@
+LISTADO DE COMPONENTES
+JPanel
+JLabel
+JButton
+JTextField - Campo para introducir un texto breve
+JCheckBox - Indicador cuadrado para indicar el estado de algún elemento
+JRadioButton - Indicador redondo para indicar el estado de algún elemento
+ButtonGroup - Utilizado para hacer un grupo con los botones indicadores de estado
+JComboBox - Lista desplegable, para seleccionar un elemento
+JList - Es una lista de elementos donde varios pueden ser seleccionados
+JTextArea - JTextField de mayor tamaño
+JScrollPane - Herramienta para añadir barras de navegación dentro de un elemento que no quepa en su espacio asignado
+
+01. CardLayout - Layout en el que sólo puedes ver un elemento a la vez, los elementos se guardan en un stack.
+02. DialPlot - Muestra información en un diagrama circular, como un odómetro.
+03. *GroupLayout - Agrupa componentes de manera jerárquica; de forma secuencial y/o paralela. Nos permite establecer de manera precisa la posición y el tamaño de cada componente dentro del contenedor.
+04. JColorChooser - Hace posible de manera gráfica la selección de colores (Swatches, HSV, HSL, RGB, CMYK).
+05. JDatePicker - Librería que nos permite visualizar calendarios e interactuar con ellos.
+06. JDesktopPane - Ventana que permite visualizar más ventanas en su interior, como si de un escritorio se tratase. 
+07. JDialog - Es una ventana de diálogo que no va a dejar que se interactúe con otra parte del programa hasta que se realice alguna acción sobre ella.
+08. JEditorPane - Nos permite editar texto: tamaño, negritas, fuente, etc.
+09. JFileChooser - Nos permite visualizar una ventana que nos muestra todos los archivos en la carpeta que seleccionemos, así como seleccionar un fichero.
+10. JFormattedTextField - Nos permite definir un formato específico para un campo de texto, para que el usuario introduzca lo que nosotros le pedimos. Podemos definir el tipo de caracter que debe introducirse.
+11. JMenu - Permite la creación de menús y submenús para permitir al usuario elegir entre diversas opciones,
+12. JOptionPane - Permite la creación de ventanas emergetes que facilitan al usuario con su interacción con el programa.
+13. JPassword - Crea un campo de texto especial para contraseñas: oculta (con asteriscos) los caracteres introducidos.
+14. JProgressBar - Barra que muestra el progreso de una acción.
+15. JSlider - Muestra una barra con distintos valores y un indicador deslizable que apunta a uno de los valores.
+16. JSpinner - Pequeño campo de una linea que permite al usuario escoger entre una lista de numeros, a veces acompañado de flechitas
+17. JSplitPane - Barrita para dividir el panel o frame
+18. JTabbedPane - Herramienta con pestañas para poder seleccionar el elemento que se desea ver
+19. JTable - Utilizado para crear tablas con casillas en dos dimensiones
+20. JTextPane - Componente tipo editor de texto donde se le pueden agregar imagenes, botones y texto
+21. JToolBar - Barra de herramientas, se le puede añadir varios componentes
+22. JTree - Herramienta con pestañas desplegables para navegar en un menu
+23. JWindow - Ventana emergente sin pestaña de minimizar/cerrar etc
+24. PieChart - Gráfica de Pastel
+25. ProgressMonitor - Barra que indica progreso
+26. JScatterPlot - Grafica una nube de puntos
+27. SpringLayout - Estira los componentes dentro del Panel
+28. Tooltip - Mensajito sobre el componente //txt.setToolTipText("Inserta el texto, bro")

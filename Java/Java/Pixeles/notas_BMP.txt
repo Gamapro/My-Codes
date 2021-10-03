@@ -1,0 +1,25 @@
+00 a 54
+
+Cabeza
+
+00 a 01   	Tipo de archivo ("BM" o 42 4D), que el archivo sea "BMP", los 2 bytes deben decir eso
+
+02 a 05		Tamaño total de arhcivo en bytes
+
+06 a 09     "Reservados"
+
+10 a 13  	Byte en que comienzan los datos de imagen, donde empezar a leer los colores de los pixeles, BIG_ENDIAN
+	
+14 a 17 	Tamaño del encabezado, en bytes,  BIG_ENDIAN
+
+18 a 21		anchura de la imagen, en pixeles  BIG_ENDIAN
+
+22 a 25		altura de la imagen, en pixeles   BIG_ENDIAN
+
+28 a 29		Profundidad de color (en bits)    BIG_ENIDAN
+
+34 a 37 	Tamaño ee los datos de imagen	  BIG_ENDIAN
+
+55 a 57		Color del primer pixel (en orden B-G-R) 24 bits
+
+

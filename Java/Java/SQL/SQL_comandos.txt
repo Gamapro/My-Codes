@@ -1,0 +1,19 @@
+DEFINICION ----------------------
+
+CREATE - Añadir un objeto
+ 
+ALTER - Modificar objeto (tabla, vista, etc)
+
+DROP - Eliminar objetos
+
+MANIPULACION --------------------
+
+INSERT - Añadir un registro
+
+UPDATE - Modificar un registro
+
+DELETE - Eliminar registros
+
+RECUPERACION -----------------
+
+SELECT - Obtiene registros de una o mas tablas
