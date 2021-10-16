@@ -1,0 +1,58 @@
+OPERA  ----------------------
+
+Descargar libffmpeg.so de la version actual de chromium
+https://github.com/iteufel/nwjs-ffmpeg-prebuilt/releases
+
+sudo mv libffmpeg.so /usr/lib/x86_64-linux-gnu/libffmpeg_h264.so
+sudo mv /usr/lib/x86_64-linux-gnu/opera/libffmpeg.so /usr/lib/x86_64-linux-gnu/opera/libffmpeg.so.orig
+sudo ln -s /usr/lib/x86_64-linux-gnu/libffmpeg_h264.so /usr/lib/x86_64-linux-gnu/opera/libffmpeg.so
+
+
+VIM CONF --------------------
+
+vi ~/.vimrc
+
+
+MINIDLNA -------------------
+
+sudo vim /etc/minidlna.conf
+
+sudo apt minidlna start
+sudo apt minidlna stop
+sudo apt minidlna restart
+sudo apt minidlna force-reload
+
+
+MICROPHONE AUTOADJUSTING ---------
+
+sudo vim /usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic.conf
+
+[Element Capture]
+switch = mute
+volume = merge
+override-map.1 = all
+override-map.2 = all-left,all-right
+
+TO
+
+[Element Capture]
+switch = mute
+volume = 100
+override-map.1 = all
+override-map.2 = all-left,all-right
+
+sudo alsa force-reload
+
+
+GITHUB ---------------------
+
+git init
+git add .
+git commit -m "NombreDelCommit"
+git push
+git push -u origin main
+git pull
+
+TERMINAL  ----------------------------
+
+sudo update-alternatives --config x-terminal-emulator   # Seleccionar terminal default
