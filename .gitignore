@@ -1,2 +1,5 @@
 **/node_modules/
 **/.ipynb_checkpoints/
+**/MNIST-DATA/
+**/cifar-data/
+**/cifar10.tgz
