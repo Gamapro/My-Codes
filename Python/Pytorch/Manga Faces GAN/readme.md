@@ -25,4 +25,8 @@ Samples can be found on this
 
 There is a video showing all the iterations as well.
 
+![Video](samples-video.mov)
+
+![Video](samples-video.mp4)
+
 ![Video](https://github.com/Gamapro/My-Codes/blob/main/Python/Pytorch/Manga%20Faces%20GAN/sample-2-video.mp4)
