@@ -25,7 +25,6 @@ Samples can be found on this
 
 There is a video showing all the iterations as well.
 
+[Video](samples-video.mov)
 
 ![Video](samples-video.gif)
-
-[Video](samples-video.mov)
