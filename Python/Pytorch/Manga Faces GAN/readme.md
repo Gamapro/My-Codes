@@ -25,8 +25,4 @@ Samples can be found on this
 
 There is a video showing all the iterations as well.
 
-![Video]()
-
-<video width="320" height="240" controls>
-  <source src="https://github.com/Gamapro/My-Codes/blob/main/Python/Pytorch/Manga%20Faces%20GAN/sample-2-video.mp4" type="video/mp4">
-</video>
+![Video](https://github.com/Gamapro/My-Codes/blob/main/Python/Pytorch/Manga%20Faces%20GAN/sample-2-video.mp4)
